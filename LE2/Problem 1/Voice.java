@@ -7,10 +7,9 @@ class Voice{
         animal[2] = new Dog();
         animal[3] = new Goat();
         animal[4] = new Pig();
-        hear(animal); 
     }
     
-    void hear(Animal[] animal) {
+    void hear() {
         for(Animal animals : animal){
             animals.makeVoice();
         }
